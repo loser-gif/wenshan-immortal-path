@@ -265,12 +265,12 @@ body.motion-light .scene-shell .cultivator,body.motion-light .scene-shell .spiri
 .manifestation-glow{position:absolute;inset:2% 10% 39%;background:radial-gradient(ellipse at 50% 30%,#d7fff542 1%,#9fefff20 29%,transparent 63%);mix-blend-mode:screen;animation:manifestation-breath 5.8s ease-in-out infinite}
 .scene-shell .portrait-stage{z-index:2}.scene-shell .realm-line{z-index:5}
 .scene-shell .qi-streams,.scene-shell .qi-dust,.scene-shell .mountain-mist{display:none}
-.scene-shell .spirit-orbit{margin-left:0;left:36.5%;opacity:.65;animation:halo-turn 17s linear infinite!important}
+.scene-shell .spirit-orbit{margin-left:0;left:36.5%;opacity:.65;animation:halo-turn 17s linear infinite}
 .scene-shell .is-active .spirit-orbit{opacity:.85}
-.scene-shell .qi-loop{position:absolute;left:50%;top:58%;width:73%;max-width:390px;aspect-ratio:1;transform:translate(-50%,-50%) rotate(-12deg) scaleY(.3);pointer-events:none;opacity:.4;z-index:1}
-.scene-shell .qi-loop-front{top:63%;width:79%;transform:translate(-50%,-50%) rotate(13deg) scaleY(.32);z-index:3}
-.qi-loop i{display:block;position:absolute;inset:0;border-radius:50%;border:2px solid transparent;border-top-color:#c6fff4;border-left-color:#8ff3e7b3;box-shadow:0 -3px 8px #7bf7e44d,inset 0 2px 5px #91ffe638;animation:qi-circuit 11s linear infinite}
-.qi-loop i:after{content:"";position:absolute;left:11%;top:12%;width:9px;height:9px;border-radius:50%;background:#e0fff5;box-shadow:0 0 9px #cbfff2,0 0 18px #7eeeda}
+.scene-shell .qi-loop{position:absolute;left:50%;top:47%;width:73%;max-width:390px;aspect-ratio:1;transform:translate(-50%,-50%) rotate(-12deg) scaleY(.3);pointer-events:none;opacity:.4;z-index:1}
+.scene-shell .qi-loop-front{top:55%;width:79%;transform:translate(-50%,-50%) rotate(13deg) scaleY(.32);z-index:3}
+.qi-loop i{display:block;position:absolute;inset:0;border-radius:50%;border:6px solid transparent;border-top-color:#dbfff5;border-left-color:#8ff3e7d9;box-shadow:0 -5px 11px #7bf7e470,inset 0 3px 8px #91ffe650;animation:qi-circuit 11s linear infinite}
+.qi-loop i:after{content:"";position:absolute;left:11%;top:12%;width:16px;height:16px;border-radius:50%;background:#eafff5;box-shadow:0 0 12px #cbfff2,0 0 22px #7eeedaa6}
 .qi-loop-front i{border-top-color:#ddf9c6;border-left-color:#d9f3a480;animation-direction:reverse;animation-delay:-4s;animation-duration:13s}
 .scene-shell .is-active .qi-loop{opacity:.92}.scene-shell .is-active .qi-loop-back i{animation-duration:5.7s}.scene-shell .is-active .qi-loop-front i{animation-duration:7.4s}
 .scene-shell .is-active .cultivator{animation:seated-breath 5.8s ease-in-out infinite}
