@@ -170,3 +170,4 @@ body.motion-light .portrait-stage .cultivator,body.motion-light .is-active .spir
 :root{--muted:#646253}
 .resources span,.bottom-nav button,.scene-banner figcaption,.menu-foot,.menu-foot small,.cultivation-rate,.portrait-caption,.techniques-topline{color:#706248}
 .volume,.vertical-note,.brand span,.technique-source,.technique-level,.enhance-label,.tower-run-heading>b,.finale-panel>.volume,.preset-compare-row:first-child{color:#7a6035}
+@media(max-width:420px){.portrait-stage{margin-inline:-13px}}
