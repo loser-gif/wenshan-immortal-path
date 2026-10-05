@@ -108,3 +108,11 @@ body{font-family:var(--font-ui);line-height:1.75}h1,h2,h3,.brand,.volume,.seal,.
 
 /*4.8: contextual sect choices and a compact fixed-recipe workbench.*/
 .gear-utility{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0}.gear-utility .preset-entry{margin:0}.specialty-entry{margin:10px 0}.specialty-options{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}.specialty-option,.craft-result{padding:14px;border:1px solid #bdcbbb;background:#fafbf5}.specialty-option h3,.craft-result h3{margin:0 0 8px}.specialty-option p{font-size:14px;line-height:1.75}.specialty-option button{width:100%;min-height:44px}.specialty-trial{margin:16px 0;padding:12px;border-top:1px solid #bdcbbb}.specialty-trial summary{min-height:44px;line-height:1.6;cursor:pointer}.craft-controls{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}.craft-controls label{font-size:14px;display:grid;gap:8px}.craft-controls select{width:100%;min-width:0;font-size:16px;min-height:48px}.craft-cost{color:#355744;font-size:16px;line-height:1.7}.crafting-page p,.specialty-page p{line-height:1.75}@media(max-width:420px){.specialty-options{grid-template-columns:1fr}.craft-controls{grid-template-columns:1fr}.specialty-option{padding:12px}}
+
+/* Scenic scrolls reserve their space and leave controls/text on paper. */
+.scene-banner{margin:16px 0 20px;overflow:hidden;border-radius:7px;background:#eee9dc;border:1px solid var(--line,#c9c8b8)}
+.scene-banner img{display:block;width:100%;height:auto;aspect-ratio:1100/367;object-fit:cover}
+.core-preview{padding:14px 0;border-top:1px solid var(--line,#c9c8b8)}
+.map-chapters{flex-wrap:wrap}.map-chapters button{flex:1 1 100px;min-height:44px}
+.motion-light .scene-banner{box-shadow:none}
+@media(max-width:420px){.scene-banner{margin:12px 0 16px}.map-chapters button{font-size:14px;padding-inline:8px}}
