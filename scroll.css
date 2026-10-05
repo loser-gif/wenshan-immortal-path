@@ -243,3 +243,17 @@ body.motion-light .scene-shell .cultivator,body.motion-light .scene-shell .spiri
 .scene-shell .qi-aura{width:auto}.scene-shell .qi-ring{--ring-tilt:-8deg}.scene-shell .ring-two{--ring-tilt:14deg}.scene-shell .is-active .qi-ring{animation:stage-ring 9s ease-in-out infinite}.scene-shell .is-active .ring-two{animation-delay:-4.5s}
 @keyframes stage-ring{0%,100%{transform:translateX(-50%) rotate(var(--ring-tilt)) scale(.94);opacity:.4}50%{transform:translateX(-50%) rotate(var(--ring-tilt)) scale(1.04);opacity:.85}}
 .visual-fx{background:linear-gradient(105deg,#171b17f7,#35301fef);border-color:#bda45f;border-left-color:#e4c679;box-shadow:0 6px 28px #0006}.visual-fx .effect-word strong{color:#f1d88d}.visual-fx .effect-word span{color:#e1ddc2}.visual-fx.fx-breakthrough{background:linear-gradient(105deg,#071a26f5,#133f48ed);border-color:#7bc7c8;border-left-color:#b4f5e6}.visual-fx.fx-breakthrough .effect-word strong{color:#cdfbee}.visual-fx.fx-breakthrough .effect-rings i{border-color:#91efdd}
+/* Rendered-phone corrections: preserve all six hit areas and expose the stage floor. */
+.scene-shell .next-step-line{width:calc(100% - 28px)}
+.scene-shell .profile-slot-label{align-self:flex-start;width:100%;padding-right:24px;text-align:left}
+.scene-shell .profile-slot .equipment-icon{width:36px;height:36px;margin-left:-8px}
+.scene-shell .profile-slot-meta{position:absolute;inset:0;width:auto;display:block;padding:0;pointer-events:none}
+.scene-shell .profile-slot-meta small{position:absolute;right:3px;top:24px;writing-mode:vertical-rl;line-height:1!important;letter-spacing:0}
+.scene-shell .profile-slot-meta b{position:absolute;right:4px;top:3px;line-height:1.2!important}
+.scene-shell .portrait-stage .cultivator{height:38%}
+.scene-shell .portrait-caption{display:none}
+.scene-shell .cultivation-controls{background:linear-gradient(transparent,#051b2433 40%,#061a2370 75%,#06151cb8)}
+.scene-shell .progress-label>span,.scene-shell .progress-label>b,.scene-shell .tick-row>span{background:#03161dba;box-shadow:0 0 6px #03161d80;padding:1px 4px;text-shadow:0 1px 2px #001018}
+@media(max-height:700px) and (max-width:599px){.scene-shell .portrait-stage .cultivator{height:44%}}
+@media(max-height:580px) and (max-width:599px){.scene-shell .profile-gear-grid{top:74px}.scene-shell .profile-slot .equipment-icon{width:28px;height:28px}.scene-shell .profile-slot-meta small{top:19px}.scene-shell .portrait-stage .cultivator{height:40%;bottom:36%}}
+.cultivation-gain{color:#d5ffe8;text-shadow:0 1px 3px #062129,0 0 10px #67dcc277;font-weight:600}
